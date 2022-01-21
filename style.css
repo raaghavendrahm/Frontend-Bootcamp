@@ -5,6 +5,13 @@ body::before {
   height: 60px;
 }
 
+/* Div for maps is set so that it would be visible */
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
 /* On medium size and higher screen, input group shall take only half of the screen width */
 @media (min-width: 768px) {
   /* news-input is a custom css class */
