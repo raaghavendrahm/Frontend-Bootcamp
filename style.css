@@ -1,3 +1,10 @@
+/* To add a space between the fixed navbar and the lady's head */
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
 /* On medium size and higher screen, input group shall take only half of the screen width */
 @media (min-width: 768px) {
   /* news-input is a custom css class */
